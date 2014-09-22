@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Pacifico";
+  src: url("../fonts/Pacifico.ttf"); }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Pacifico";
+  font-size: 16pt;
+  background-color: #F0F2EB; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in; }
+
+.languageIcon:hover img, .active img {
+  background-color: rgba(232, 199, 131, 0.3);
+  border-radius: 50%; }
+.languageIcon:hover p, .active p {
+  opacity: 1; }
+
+.flexmiddle {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center; }
+
+.languageIcon p {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #e8c783; }
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: #3B9FB7;
+  text-shadow: 2px 2px 5px #C2C2C2; }

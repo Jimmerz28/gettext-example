@@ -1,0 +1,28 @@
+{
+   "domain": "somedomain",
+   "locale_data": {
+      "somedomain": {
+         "": {
+            "domain": "somedomain",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "de_DE"
+         },
+         "France": [
+            null,
+            "Frankreich"
+         ],
+         "England": [
+            null,
+            "England"
+         ],
+         "Germany": [
+            null,
+            "Deutschland"
+         ],
+         "Welcome Translators!": [
+            null,
+            "Willkommen Übersetzer!"
+         ]
+      }
+   }
+}
